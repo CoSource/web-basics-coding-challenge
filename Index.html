@@ -1,0 +1,31 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles/main.css" />
+	<script type="text/javascript" src="scripts/calc.js"></script>
+	<title>A Simple Calculator to add or subtract two numbers</title>
+</head>
+
+<body>
+	<header></header>
+	<aside></aside>
+	<section>
+		<h1>Adder / Subtractor</h1>
+		<div class="calculatorForm">
+			<p>X = <input type="text" id="xNumber" class="numberbox" placeholder="Enter a Integer" required /></p>
+			<p>Y = <input type="text" id="yNumber" class="numberbox" placeholder="Enter a Integer" required /></p>
+			<p><input type="button" class="shadow" name="plusButton" value="+" onclick="addNumbers()" />&nbsp;<input type="button" class="shadow" name="minusButton" value="-" onclick="minusNumbers()" /></p>
+			<div class="messagePanel">
+				<span id="xNumber_error">X must be a valid number.</span>
+				<span id="yNumber_error">Y must be a valid number.</span>
+				<span id="result"></span>
+			</div>
+		</div>
+	</section>
+	<aside></aside>
+	<footer></footer>
+
+</body>
+
+</html>
